@@ -1,0 +1,138 @@
+
+ @font-face {
+  font-family: matrix;
+   src: url("matrix regular.tff");
+}
+
+*{
+    font-family: matrix;
+    color: rgb(0, 255, 0);
+}
+
+body{
+    margin: 0;
+}
+
+
+.container{
+    display: float;
+    max-height: fit-content;
+    margin: 0;
+}
+
+.header{ 
+    background-color: rgba(27, 29, 29, 0.767);
+    text-align: center;
+    position: relative;padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.links{
+    float: left;
+    background-color: rgba(27, 29, 29, 0.767);
+    height: 100%;
+    width: 10%;
+    margin-top: 5px;
+    border-style: initial;
+    border-radius: 25px;
+    position: fixed;
+    overflow: auto;
+    
+    
+}
+
+.blogl{
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    border-radius: 3px;
+    
+}
+
+.bookl{
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    border-radius: 3px;
+    
+}
+
+.blog1{
+    border-style: solid;
+    border-color: rgb(20, 20, 20);
+    background-color: rgba(27, 29, 29, 0.767);
+    float: left;
+    margin-left: 80px;
+    overflow: auto;
+    border-radius: 25px;
+    width: 750px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+
+.date{
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.author{
+    float:left;
+    z-index: +1;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    
+  
+}
+
+.avatar{
+    height: 80px;
+    width: 120px;
+    z-index: -1;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    
+    
+}
+
+.title{
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.prev{
+    float:center;
+    position: relative;
+    bottom: 50px;
+    clear: both;
+    margin: 10px;
+    
+}
+.bg{
+    position: fixed;
+    z-index: -1;
+    
+    background: url(matrix.gif) 100%, 100%;
+    opacity: .6;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
